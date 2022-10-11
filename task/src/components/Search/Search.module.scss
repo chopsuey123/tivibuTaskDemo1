@@ -1,0 +1,63 @@
+$based-color: #fff;
+
+.input {
+  position: relative;
+  width: 40%;
+  animation-name: inputFlow;
+  animation-duration: 1s;
+  margin: 18px auto auto;
+  
+  input {
+    color: $based-color;
+    background: #122436;
+    border: 1px solid #1c3148;
+    border-radius: 28px;
+    padding: 17px 50px 17px 80px;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+  }
+  .searchicon {
+    top: 15px;
+    left: 30px;
+    position: absolute;
+    color: $based-color;
+  }
+  .exiticon {
+    top: 15px;
+    right: 30px;
+    cursor: pointer;
+    position: absolute;
+    color: $based-color;
+  }
+  .exiticon2 {
+    display: none;
+  }
+}
+
+.default {
+  margin-top: 50px;
+  text-align: center;
+  color: $based-color;
+}
+
+.error {
+  color: red;
+}
+
+.popular {
+  margin-top: 50px;
+  color: $based-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes inputFlow {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
+}

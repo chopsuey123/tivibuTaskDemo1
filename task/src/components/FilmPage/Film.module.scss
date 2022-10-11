@@ -1,0 +1,48 @@
+$base-color: #fff;
+
+.container {
+  margin-top: 60px;
+  display: flex;
+
+  button {
+    background-color: #45586e;
+    color: $base-color;
+    margin-right: 180px;
+    margin-left: 15px;
+    border: 1px solid #45586e;
+    box-shadow: 7px 7px 10px -4px lightblue;
+    width: 7rem;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .video {
+    padding: 40px;
+    margin-right: 50px;
+    border: 5px solid #45586e;
+    border-radius: 20px;
+    box-shadow: 24px 24px 30px -4px lightblue;
+    height: 100%;
+  }
+  .info {
+    color: $base-color;
+    margin-left: 20px;
+    
+    img {
+        border: 3px solid #8d8d8d;
+        border-radius: 20px;
+        box-shadow: 7px 7px 10px -4px rgb(82, 82, 82);
+    }
+    .description {
+      text-align: center;
+      justify-content: center;
+      border: 3px solid #8d8d8d;
+      box-shadow: 7px 7px 10px -4px rgb(82, 82, 82);
+    }
+  }
+}
